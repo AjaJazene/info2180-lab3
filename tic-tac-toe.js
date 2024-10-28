@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         square.classList.add("square");
 
         square.addEventListener("click", () => {
-            // Check if the square is already occupied
+    
             if (gameActive && gameState[index] === null) { // Check if game is active and square is empty
                 // Update the game state
                 gameState[index] = currentPlayer;
